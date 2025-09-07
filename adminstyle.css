@@ -1,0 +1,121 @@
+/* Seller CSS */
+body{
+	margin: 0 auto;
+	background-color: white;
+	background-size: cover;
+	overflow-x: hidden;
+}
+a{
+text-decoration: none;
+}
+.selection{
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+.selection:hover{
+	color: rgb(97, 97, 97);
+}
+.article-header{
+	position: relative;
+	font-family: sans-serif;
+	font-size: 5vw;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	filter: drop-shadow(rgb(255, 255, 255) 1px 3px 0px);
+    background-color: #000000;
+
+}
+.hr{
+	position: relative;
+	background-color: black;
+
+}
+#products{
+
+}
+
+.bttn-addItem{
+	width: 70%;
+	margin: 0 auto;
+    
+}
+ .chart-container {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+td{
+font-size: 18px;
+}
+table{
+
+}
+
+
+
+
+/* Notifications - Board */
+.notifSelection:hover{
+border: 1px solid black;
+transition: 0.5s
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+

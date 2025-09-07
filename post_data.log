@@ -1,0 +1,9 @@
+Array
+(
+    [action] => update_product
+    [update_product] => some_value
+    [productID] => 123
+    [updateProductName] => New Product
+    [updateProductPrice] => 10.99
+    [updateProductQuantity] => 100
+)

@@ -1,0 +1,383 @@
+body{
+	margin: 0 auto;
+	background-color: white;
+	background-size: cover;
+	overflow-x: hidden;
+}
+a{
+text-decoration: none;
+
+}
+.selection{
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+.selection:hover{
+	color: rgb(97, 97, 97);
+}
+.header .flex .profile{
+    position: absolute;
+    top:125%; right:2rem;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    border-radius: .5rem;
+    padding:2rem;
+    padding-top: 1rem;
+    width: 30rem;
+    display: none;
+    animation: fadeIn .2s linear;
+ }
+ 
+.sign-up-btn{
+	background-color: white;
+	background-size: contain;
+}
+.bttn-shop{
+	transform: translateY(17vw);
+	color: rgba(189, 31, 31, 0.737);
+	border: rgb(0, 0, 0) solid 1px;
+	width: 30%;
+	z-index: 999;
+}
+.bttn-shop:hover{
+	background-color: rgba(255, 255, 255, 0.112);
+	color: white;
+	border: 1px white solid;
+}
+.slide-show{
+	transform: translateY(-10%);
+}
+.product-container{
+	justify-content: center;
+	 display: inline-flex;
+  flex-wrap: wrap;
+    gap: 4em;
+}
+#quantity1, #quantity2, #quantity3, #quantity4, #quantity5, #quantity6{
+	color: black;
+}
+.bttn-group{
+background-color: #F28500;
+border: white solid 0.5px;
+padding: 10px;
+
+
+}
+.customer-prod-img{
+	margin: 0 auto;
+	width: 100%;
+	height: 90%;
+}
+.buy-bttn{
+    background-color: #F49D1A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buy-bttn:hover{
+opacity: 0.8;
+
+}
+.increment, .decrement{
+	border: none;
+	background-color: #F49D1A;
+	color: white;
+	width: 10%;
+box-shadow: 1px 1px 3px #73777B;
+
+}
+
+.product-hover:hover{
+	opacity: 0.6;
+	transition: 1.5s;
+}
+footer{
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VIEW CART - CUSTOMER CSS */	
+.viewcart-body{
+	background-color: white;
+}
+.tab{
+	width: 100%;
+}
+th{
+	border: 1px solid black;
+	background-color: white;
+
+}
+td{
+font-family: sans-serif;
+font-size: 20px;
+text-align: center;
+padding: 20px;
+background-color: white;
+}
+tr{
+	line-height: 2;
+	border-bottom: 1px solid black;
+}
+.remove{
+	display: block;
+	font-family: sans-serif;
+	font-size: 75%;
+	color: maroon;
+}
+.remove-all{
+	font-family: sans-serif;
+	font-size: 100%;
+	color: maroon;
+	text-decoration: underline;
+}
+.remove:hover{
+	color: white;
+	background-color: maroon;
+}
+.remove-all:hover{
+	background-color: maroon;
+	color: white;
+}
+.check-box:hover{
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PROFILE CSS */
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 15px;
+    padding: 5 0 5 0;
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PURCHASE CSS */
+.bttn-header{
+color: black;
+background-color: #F28500;
+}
+
+
+
+
+
+
+
+
+
+/* TO - RECEIVE ( RATING STAR ) */
+.rate {
+    
+    height: 40px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:50px;
+    color:#ccc;
+    transform: translateX(-29vw);
+
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
